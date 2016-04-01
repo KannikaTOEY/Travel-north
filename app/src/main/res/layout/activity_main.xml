@@ -22,10 +22,11 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="About Me"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
-        android:background="#bc5ebae5" />
+        android:background="#bc5ebae5"
+        android:textSize="@dimen/h2" />
 
     <ListView
         android:layout_width="wrap_content"
