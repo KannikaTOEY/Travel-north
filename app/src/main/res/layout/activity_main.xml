@@ -7,10 +7,34 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ice_pbru.kongsud.kannika.travelnorth.MainActivity">
+    tools:context="ice_pbru.kongsud.kannika.travelnorth.MainActivity"
+    android:background="@drawable/dddddddd">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRAVEL NORTH"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/h1"
+        android:background="#aa5ebae5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:background="#bc5ebae5" />
+
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/listView"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/textView"
+        android:background="#aaf8cde7"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
 </RelativeLayout>
