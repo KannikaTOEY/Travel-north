@@ -34,7 +34,7 @@
         android:id="@+id/listView"
         android:layout_above="@+id/button"
         android:layout_below="@+id/textView"
-        android:background="#aaf8cde7"
+        android:background="#9afdccea"
         android:layout_alignParentTop="false"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp" />
